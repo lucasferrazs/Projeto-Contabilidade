@@ -1,1 +1,1 @@
-Projeto Voltado para aprender contabilidade e aprimorar meu conhecimentos em programação
+Projeto Voltado para aprender contabilidade e aprimorar meus conhecimentos em programação
