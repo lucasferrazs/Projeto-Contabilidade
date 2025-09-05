@@ -1,6 +1,7 @@
 package com;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javafx.application.Application;
+
 @SpringBootApplication
 public class SistemaContabilApplication {
 

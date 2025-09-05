@@ -1,5 +1,6 @@
 package com.repository;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -19,6 +20,8 @@ public interface LancamentosRepository extends JpaRepository<Lancamentos,Integer
     // Para buscar pelo ID da conta de crédito (um número).
     List<Lancamentos> findByContacreditoId(Integer idConta);
     List<Lancamentos> findByContadebitoId(Integer idConta);
+
+    List<Lancamentos> findByCdata(LocalDate cdata);
 
 
 } 

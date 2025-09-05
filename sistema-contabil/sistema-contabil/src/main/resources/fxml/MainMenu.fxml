@@ -20,6 +20,7 @@
                 </Menu>
                 <Menu mnemonicParsing="false" text="Relatórios">
                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#abrirRelatorioLivrodiario" text="Livro Diario" />
                         <MenuItem mnemonicParsing="false" onAction="#abrirRelatorioBalancete" text="Balancete" />
                     </items>
                 </Menu>

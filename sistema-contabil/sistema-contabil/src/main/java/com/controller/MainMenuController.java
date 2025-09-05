@@ -40,6 +40,11 @@ public class MainMenuController {
         System.out.println("Abrindo relatório de Balancete...");
         // carregarTela("RelatorioBalancete"); // Implementação futura
     }
+    @FXML
+    public void abrirRelatorioLivrodiario() {
+        System.out.println("Abrindo relatório de Balancete...");
+        carregarTela("TelaLivrodiario"); // Implementação futura
+    }
 
     @FXML
     public void abrirTelaSobre() {
