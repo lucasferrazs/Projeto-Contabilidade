@@ -34,6 +34,11 @@ public class MainMenuController {
         System.out.println("Abrindo tela de Plano de Contas...");
         carregarTela("TelaPlanoDeContas"); // Implementação futura
     }
+    @FXML
+    public void abrirTelaLivrorazao() {
+        System.out.println("Abrindo tela do Livro razão...");
+        carregarTela("TelaLivrorazao"); // Implementação futura
+    }
 
     @FXML
     public void abrirRelatorioBalancete() {
